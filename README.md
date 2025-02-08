@@ -1,23 +1,35 @@
-# Walking through Support Vector Regression and LSTMs with stock price prediction
-Check out the medium article I wrote on this project [here](https://towardsdatascience.com/walking-through-support-vector-regression-and-lstms-with-stock-price-prediction-45e11b620650?source=friends_link&sk=f6c15227acfc7cf58501522d098ea8f4)
+# Stock Price Prediction with SVR and LSTMs  
 
-## Purpose:
-In this project I wanted to learn the basics of time series analysis using Support Vector Regression and LSTM Recurrent neural networks.  
+This is a small project where I'm experimenting with stock price prediction using Support Vector Regression (SVR) and Long Short-Term Memory (LSTM) networks. I'm just trying to get a basic understanding of how these models work for time series data.  
 
-## Example output:
-<img src="Images/prediction.png">
+## What This Does  
+The project looks at stock prices and tries to predict future values using two different approaches:  
+1. **Support Vector Regression (SVR)** – A more traditional ML approach  
+2. **LSTMs (Long Short-Term Memory networks)** – A deep learning approach  
 
+## Example Output  
+Here's an example of what the predictions look like:  
 
-## Built with:
-* python=3.6.4
-* numpy=1.16.4
-* Tensorflow=1.14.0
-* Keras=2.2.4
+<img src="Images/prediction.png">  
 
-## Files: 
-* Raw_Stock_Prediction.ipynb - Source code for the model 
-* LSTM_Stock_Prediction_Explanation.ipynb - The full model source code along with explanations of the code and explanations of concepts like Support Vector Regression, LSTMs, and Linear Regression
-* Images - contains the visual aid image files used in the explanation notebook
+## Stuff Used  
+To run this, you'll need:  
+- Python 3.6.4  
+- NumPy 1.16.4  
+- TensorFlow 1.14.0  
+- Keras 2.2.4  
 
-## Usage 
-To start the notebook run ```jupyter notebook``` in terminal 
+## Files in This Repo  
+- **Raw_Stock_Prediction.ipynb** – Main notebook with the model  
+- **LSTM_Stock_Prediction_Explanation.ipynb** – A more detailed version with explanations on SVR, LSTMs, and how the code works  
+- **Images/** – Just some visuals used in the notebooks  
+
+## How to Use  
+1. Make sure you have Jupyter Notebook installed  
+2. Open a terminal and run:  
+   ```bash
+   jupyter notebook
+   ```  
+3. Open any of the notebooks and run the cells  
+
+Still figuring things out, but it's been fun messing around with this! 🚀
